@@ -1,6 +1,5 @@
 # Setup Capybara so that we can use the DSL for writing the tests
-require 'capybara/dsl'
-include Capybara::DSL
+require 'capybara/rspec'
 
 # We will use the selenium driver
 Capybara.current_driver = :selenium

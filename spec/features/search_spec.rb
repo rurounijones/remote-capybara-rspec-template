@@ -1,6 +1,4 @@
-require 'spec_helper'
-
-describe "The google homepage", :type => :request do
+feature "The google homepage" do
 
   it 'should display results from a search' do
     # Visit the ncr (No Country Redirect) page to ensure the same page
@@ -11,5 +9,3 @@ describe "The google homepage", :type => :request do
   end
 
 end
-
-
