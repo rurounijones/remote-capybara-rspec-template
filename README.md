@@ -8,10 +8,20 @@ Use that if you wish to use cucumber scenarios instead of rspec
 
 ## Getting started
 
+There are two ways of getting started. The first is to clone this git repository,
+install the gems and away you go. Like so:
+
     git clone git://github.com/rurounijones/remote-capybara-rspec-template.git
     cd remote-capybara-rspec-template
     bundle install
     bundle exec rake spec
+
+However this means your test's version history will include my commits which may
+not be what you are after. 
+
+What you might want to do instead is download this project using the github "ZIP"
+link, remove the default google spec then start committing and modifying for your
+projects.
 
 ## Hacking
 
